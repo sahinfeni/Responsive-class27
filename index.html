@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- header section -->
+    <div class="container">
+        <div class="navber">
+            <a href="https://www.lfwfacademy.com/lfwf-student/" target="_blank" class="logo">LFWF Academy</a>
+            <nav>
+                <ul id="menuBar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+                <!-- <ul>
+                    <li><a href="#"></a></li>
+                </ul> -->
+             <a href="#" class="menu-icon" onclick="menuitem()"><i class="fas fa-bars"></i></a>   
+            
+        </div>
+    </div>
+
+
+
+    <!-- banner section -->
+
+
+    <div class="banner">
+        <div class="banner-content">
+            <h1>Welcome to LFWF</h1>
+            <h5>We are a full-service integrated creative Academy</h5>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+
+
+ <!-- service section -->
+
+ <div class="service" id="service">
+   <div class="service-center">
+    <h1>Our Service</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ut.</p>
+   </div>
+</div>
+
+<div class="service-item">
+    <div class="web all">
+        <i class="fas fa-desktop"></i>
+        <h2>Web design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quibusdam voluptate obcaecati pariatur </p> 
+    </div>
+    <div class="graphic all">
+        <i class="fas fa-rocket"></i>
+        <h2>Web design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quibusdam voluptate obcaecati pariatur </p> 
+    </div>
+    <div class="app all">
+        <i class="fas fa-desktop"></i>
+        <h2>Web design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quibusdam voluptate obcaecati pariatur </p>  
+    </div>
+    <div class="digital all">
+        <i class="far fa-lightbulb"></i>
+        <h2>Web design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quibusdam voluptate obcaecati pariatur </p>  
+    </div>
+ </div>
+
+
+
+
+
+<hr>
+
+
+     <!-- about section -->
+     <div class="about"  id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, voluptas.</p>
+    </div>
+
+    <div class="about-section">
+        <div class="potho">
+            <img src="https://i.ibb.co/NN90xCf/about.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <div class="content">
+                <h4 class="pp">Who are you</h4>
+                <p class="ppp">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit eum ducimus quo dolorum, dolor adipisci praesentium. Aspernatur, voluptatibus. Harum, hic.</p>
+            </div>
+            <br>
+            <div class="content">
+                <h4 class="pp">Who are you</h4>
+                <p class="ppp">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit eum ducimus quo dolorum, dolor adipisci praesentium. Aspernatur, voluptatibus. Harum, hic.</p>
+            </div>
+            <br>
+            <div class="content">
+                <h4 class="pp">Who are you</h4>
+                <p class="ppp">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit eum ducimus quo dolorum, dolor adipisci praesentium. Aspernatur, voluptatibus. Harum, hic.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- footer section -->
+
+<div class="main-contact" id="footer">
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, voluptas.</p>
+    </div>
+    <div class="address clear">
+        <div class="div1 al">
+            <i class="fas fa-map-marker"></i><br>
+            <span>Feni - Kalidaha</span><br>
+            <span>Feni, Bangladesh</span>
+        </div>
+        <div class="div2 al">
+            <i class="fas fa-envelope"></i><br>
+            <span>Sahinfeni03@gamil.com</span>
+        </div>
+        <div class="div3 al">
+            <i class="fas fa-phone"></i><br>
+            <span>+00 00000000</span><br>
+            <span>+96898763700</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="socil-icon">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-dribbble"></i></a>
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-invision"></i></a>
+</div>
+
+
+<p class="footer" id="footer">
+    copyright &copy; LFWF .Designed by LFWF Academy
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var menuBar = document.getElementById("menuBar");
+    
+    menuBar.style.maxHeight = "0px";
+
+    function menuitem(){
+        if(menuBar.style.maxHeight == "0px"){
+            menuBar.style.maxHeight = "250px"
+        }
+        else{
+            menuBar.style.maxHeight = "0px"
+        }
+    }
+
+
+</script>
+
+
+
+
+</body>
+</html>

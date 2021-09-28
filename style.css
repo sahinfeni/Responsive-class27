@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.3s linear;
+}
+
+
+
+.container{
+    background:#22c3a3 ;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+a.logo{
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    line-height:60px;
+    color: #fff;
+    cursor: pointer;
+    font-family: serif;
+}
+
+.navber{
+    display: flex;
+    align-items: center;
+    
+}
+.navber .menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+    font-size: 25px;
+    color:honeydew;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    margin-bottom: 22px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right:20px ;
+}
+nav ul li a{
+    font-size:18px;
+    color:#ddd;
+
+}
+nav ul li a:hover{
+    color: #cccccc;
+}
+
+/* banner section */
+
+
+.banner{
+    background: url(https://i.ibb.co/DV5Kgnf/header-bg01.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    padding: 170px 0;
+    margin-bottom: 50px;
+}
+.banner h1{
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+.banner h5{
+    color: #ddd;
+    padding: 15px 0;
+}
+.banner a{
+    text-decoration: none;
+    color: #ddd;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.banner a:hover{
+    color: #fff;
+}
+
+ /* service section */
+
+ .service{
+    margin: 70px auto;
+    text-align: center;
+    padding: 0 5%;
+    color: #555555;
+}
+.service h1{
+    padding: 20px 0;
+    color: #464545;
+}
+
+.service-item{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    justify-content: space-between;
+}
+.service-item .all{
+    text-align: center;
+    padding: 0 10px;
+}
+
+.service-item .all i{
+    font-size: 30px;
+    color: #22c3a3;
+    display: inline-block;
+
+}
+.service-item .all h2{
+    color:#576063;
+    padding: 10px 0;
+}
+.service-item .all p{
+    color:#636e72;
+}
+
+hr{
+    background: #22c3a3;
+    width: 100%;
+    border: none;
+    height: 2px;
+    margin: 50px 0;
+
+}
+
+
+
+
+.about{
+    text-align: center;
+}
+.about h2{
+    color: rgb(87, 84, 84);
+    padding-bottom: 15px;
+}
+
+.about p{
+    color:  #737373;
+}
+
+img{
+    max-width: 100%;
+}
+.pp{
+    color: #747474;
+    
+}
+.ppp{
+    color: #737373;
+}
+.about-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.potho{
+    width: 40%;
+}
+
+.about-content{
+    width: 40%;
+}
+.content{
+    text-align: start;
+}
+
+
+.potho img{
+    max-width: 95%;
+    margin-top: 20px;
+    height: auto;
+}
+
+#menuBar
+{
+    transition: 0.4s linear;
+}
+
+/* ------------ */
+
+
+.contact{
+    margin: 70px auto;
+    text-align: center;
+}
+.contact h2{
+    color: rgb(87, 84, 84);
+    padding-bottom: 15px;
+}
+
+.contact p{
+    color:  #737373;
+}
+
+.main-contact{
+    padding-top: 10px;
+    background: #f6f6f6;
+
+}
+
+.address{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 70px;
+    display: flex;
+    align-items: flex-start;
+    align-self: baseline;
+    justify-content: space-between;
+}
+.al{
+    text-align: center;
+}
+.al i{
+    font-size: 22px;
+    color: #22c3a3;
+    padding: 10px 0;
+}
+.al span{
+    color: #737373;
+    font-size: 18px;
+}
+
+
+
+.socil-icon{
+    text-align: center;
+    padding: 20px 0;
+    background: #22c3a3;
+}
+.socil-icon a{
+    padding: 0 10px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer{
+    text-align: center;
+    padding: 12px 0;
+    font-size: 18px;
+    color: rgb(121, 115, 115);
+    background: #222222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive design for mobile friendly */
+
+@media only screen and (max-width:800px){
+           nav ul{
+        width: 50%;
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background:#22c3a3 ;
+        z-index: 2;
+        overflow: hidden;
+       } 
+        nav ul li{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: honeydew;
+        margin-right: 0;
+        }
+        nav ul li:hover{
+        background: #7fa79f;
+        }
+        .navber .menu-icon{
+        display: block;
+        }
+
+}
+
+@media only screen and (max-width:700px){
+    /* navber */
+    nav ul{
+        width: 50%;
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background:#22c3a3 ;
+        z-index: 2;
+        overflow: hidden;
+       } 
+        nav ul li{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: honeydew;
+        margin-right: 0;
+        }
+        nav ul li:hover{
+        background: #7fa79f;
+        }
+        .navber .menu-icon{
+        display: block;
+        }
+
+        .banner{
+        padding: 100px 0;
+        }
+    /* servicen section */
+
+  .service-item{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+   }
+   .service-item .all{
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    margin: 0px 0;
+}
+ 
+ /* about section */
+ 
+ .about-section{
+     display: flex;
+     flex-direction: column;
+ }
+ .potho{
+     width: 80%;
+     height: auto;   
+ }
+ .potho img{
+     background: scroll;
+ }
+
+.about-content{
+    display: flex;
+    width: 80%;
+
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.pp{
+    color: #747474;
+    margin-top: 20px;
+}
+
+
+.address{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.address .al{
+    margin-top: 15px;
+}
+
+.socil-icon{
+    text-align: center;
+    padding: 20px 0;
+    background: #22c3a3;
+}
+.socil-icon a{
+    padding: 0 10px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+    nav ul{
+        width: 70%;
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background:#22c3a3 ;
+        z-index: 2;
+    } 
+        nav ul li{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: honeydew;
+        margin-right: 0;
+    }
+    nav ul li:hover{
+        background: #7fa79f;
+    }
+    
+
+    /* banner section */
+    .banner{
+        padding: 90px 0;
+    }
+    .banner h1{
+        font-size: 38px;
+    }
+    
+    /* service section */
+    
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:500px){
+    nav ul{
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background:#22c3a3 ;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:honeydew;
+        margin-right: 0;
+    }
+    nav ul li:hover{
+        background: #7fa79f;
+    }
+        /* banner section */
+        .banner{
+            padding: 90px 0;
+        }
+        .banner h1{
+            font-size: 30px;
+        }
+        .banner h5{
+            font-size: 14px;
+        }
+        .banner a{
+            font-size: 14px;
+            padding: 7px 12px;
+        }
+}
